@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.background-image {
+    height: 100%;
+    background-image: url('./Foto/space-scene.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* .container span {
+    color: #fff;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.showcase-text{
+    max-width: 800px;
+    padding-top: 250px;
+    padding-left: 120px;
+    color: #fff;
+}
+
+.showcase-text .text-1 {
+    font-size: 27px;
+}
+
+.showcase-text .text-2 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.showcase-text .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.showcase-text .text-3 span{
+    color: #FEC544;
+}
+
