@@ -30,9 +30,14 @@ html, body {
     transform: translate(-50%, -50%);
 } */
 
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
 .showcase-text{
     max-width: 800px;
-    padding-top: 250px;
+    padding-top: 100px;
     padding-left: 120px;
     color: #fff;
 }
