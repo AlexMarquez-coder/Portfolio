@@ -37,7 +37,7 @@ html, body {
 
 .showcase-text{
     max-width: 800px;
-    padding-top: 100px;
+    padding-top: 85px;
     padding-left: 120px;
     color: #fff;
 }
@@ -60,4 +60,111 @@ html, body {
 .showcase-text .text-3 span{
     color: #FEC544;
 }
+
+ .Glow-button {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: start;
+    padding-left: 180px;
+    padding-top: 20px;
+    /* align-items: center; */
+    align-items: flex-start;
+    margin-bottom: 0px;
+    min-height: 59vh;
+    /* background-color: #041230; */
+    font-family: consolas;
+  }
+  
+  .Button {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: .2s;
+  }
+  
+  .Button a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .Button:hover {
+    color: #225784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,
+    0 0 80px #2196f3;
+    transition-delay: .1s;
+  }
+  
+  .Button:hover a {
+    color: #225784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,
+    0 0 80px #2196f3;
+    transition-delay: .1s;
+  }
+  
+  .Button span {
+    position: absolute;
+    display: block;
+  }
+  
+  .Button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2196f3);
+  }
+  
+  .Button:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+  }
+  
+  .Button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);
+  }
+  
+  .Button:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: .5s;
+  }
+  
+  .Button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2196f3);
+  }
+  
+  .Button:hover span:nth-child(2){
+    right: 100%;
+    transition: 1s;
+    transition-delay: .25s;
+  }
+  
+  .Button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #2196f3);
+  }
+  
+  .Button:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: .75s;
+  } 
 
