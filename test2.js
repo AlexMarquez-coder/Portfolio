@@ -16,12 +16,3 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
-
-// $(document).ready(function(){
-
-//     // toggle menu/navbar script
-//     $('.menu-btn').click(function(){
-//         $('.navbar .menu').toggleClass("active");
-//         $('.menu-btn i').toggleClass("active");
-//     });
-// });
