@@ -162,9 +162,92 @@ html, body {
     height: 100%;
 }
 
+/* body {
+    background-color: aqua;
+} */
+
+
+.container
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-top: 100px;
+}
+.container .card
+{
+   width: 330px;
+   height: 416px;
+   padding: 60px 30px;
+   margin: 20px;
+   background: #f2f3f7;
+   border-radius: 20px;
+}
+.container .card .content
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.container .card .content .imgBx
+{
+   width: 180px;
+   background-color: black;
+   height: 180px;
+   border-radius: 50%;
+   position: relative;
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+.container .card .content .imgBx img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.container .card .content .contentBx h4
+{
+   color: #333;
+   font-size: 1.7rem;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.container .card .content .contentBx h5
+{
+   color: #333;
+   font-size: 1.2rem;
+   text-align: center;
+}
+.container .card .content .sci
+{
+   margin-top: 20px;
+}
+.container .card .content .sci a
+{
+   text-decoration: none;
+   color: #333;
+   font-size: 30px;
+   margin: 10px;
+   transition: color 0.4s;
+}
+.container .card .content .sci a:hover
+{
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
 .background-image {
     height: 100%;
-    background-image: url('./Foto/space-scene.webp');
+    background-image: url('./space-scene.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -190,7 +273,7 @@ html, body {
     padding-left: 10px;
 }
 
-.showcase-text{
+/* .showcase-text{
     max-width: 800px;
     padding-top: 85px;
     padding-left: 120px;
@@ -214,19 +297,16 @@ html, body {
 
 .showcase-text .text-3 span{
     color: #FEC544;
-}
+} */
 
- .Glow-button {
+ /* .Glow-button {
     display: flex;
-    /* justify-content: center; */
     justify-content: start;
     padding-left: 180px;
     padding-top: 20px;
-    /* align-items: center; */
     align-items: flex-start;
     margin-bottom: 0px;
     min-height: 59vh;
-    /* background-color: #041230; */
     font-family: consolas;
   }
   
@@ -321,7 +401,7 @@ html, body {
     bottom: 100%;
     transition: 1s;
     transition-delay: .75s;
-  } 
+  }  */
 
   /* responsive media query start */
   @media (max-width: 1104px){
@@ -336,21 +416,21 @@ html, body {
   }
 
   @media (max-width: 947px){
-    .background-image {
+    /* .background-image {
       height: 100%;
       background-image: url('./Foto/space-scene.webp');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       background-attachment: fixed;
-  }
+  } */
 
-  .showcase-text{
+  /* .showcase-text{
     max-width: 800px;
     padding-top: 85px;
     padding-left: 50px;
     color: #fff;
-}
+} */
 
     .nav-menu {
       position: fixed;
@@ -391,19 +471,16 @@ html, body {
       transform: translateY(-8px) rotate(-45deg);
   }
 
-  .Glow-button {
+  /* .Glow-button {
     display: flex;
-    /* justify-content: center; */
     justify-content: start;
     padding-left: 80px;
     padding-top: 25px;
-    /* align-items: center; */
     align-items: flex-start;
     margin-bottom: 0px;
     min-height: 59vh;
-    /* background-color: #041230; */
     font-family: consolas;
-  }
+  } */
 
     /* .max-width{
       padding: 0 50px;
@@ -444,16 +521,16 @@ html, body {
       font-size: 25px;
     } */
 
-    .showcase-text .text-2 {
+    /* .showcase-text .text-2 {
       font-size: 75px;
       font-weight: 700;
   }
   
   .showcase-text .text-3 {
-      font-size: 35px;
+      font-size: 35px; */
       /* margin: 5px 0;
       font-weight: 700; */
-  }
+  /* } */
   
   }
 
@@ -462,42 +539,42 @@ html, body {
       padding: 0 23px;
     } */
 
-    .showcase-text .text-2 {
-      font-size: 60px;
+    /* .showcase-text .text-2 {
+      font-size: 60px; */
       /* font-weight: 700; */
-  }
+  /* } */
   
-  .showcase-text .text-3 {
-      font-size: 32px;
+  /* .showcase-text .text-3 {
+      font-size: 32px; */
       /* margin: 5px 0;
       font-weight: 700; */
-  }
+  /* } */
   }
 
   @media (max-width: 500px){
 
-    .showcase-text .text-2 {
-      font-size: 30px;
+    /* .showcase-text .text-2 {
+      font-size: 30px; */
       /* font-weight: 700; */
-  }
+  /* }
   
   .showcase-text .text-3 {
-      font-size: 27px;
+      font-size: 27px; */
       /* margin: 5px 0;
       font-weight: 700; */
-  }
+  /* } */
   }
 
   @media (max-width: 357px){
 
-    .showcase-text .text-2 {
-      font-size: 25px;
+    /* .showcase-text .text-2 {
+      font-size: 25px; */
       /* font-weight: 700; */
-  }
+  /* }
   
   .showcase-text .text-3 {
-      font-size: 17px;
+      font-size: 17px; */
       /* margin: 5px 0;
       font-weight: 700; */
-  }
+  /* } */
   }
