@@ -33,7 +33,8 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  /* background-color: #101010; */
+  background-color: #fff;
 }
 
 .nav-menu {
@@ -158,9 +159,9 @@ nav ul li a:before{
 nav ul li a:before */
 /* eind Nav 2 */
 
-html, body {
+/* html, body {
     height: 100%;
-}
+} */
 
 .background-image {
     height: 100%;
