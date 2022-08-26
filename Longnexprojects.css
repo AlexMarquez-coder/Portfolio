@@ -81,104 +81,49 @@ a {
   color: #2196f3;
 }
 
-/* Begin nav 1 */
-/* .max-width{
-  max-width: 1300px;
-  padding: 0 80px;
-  margin: auto;
-} */
-
-/* navbar styling */
-/* .navbar{
-  position: fixed;
-  width: 100%;
-  padding: 30px 0;
-  font-family: consolas;
-  transition: all 0.3 ease;
+.logo2 {
+    padding-left: 40%;
 }
 
-.navbar .lg a{
-  color: #fff;
-  font-size: 35px;
-  font-weight: 600;
-}
-
-.navbar .lg a span {
-  color: #2196f3;
-}
-
-
-.navbar .max-width{
+/* Begin fotoslider */
+* {box-sizing: border-box;}
+.mySlides {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
 }
 
-.navbar .menu li{
-  list-style: none;
+.slideshow-container img {
+  vertical-align: middle;
+  padding-top: 30px;
+  width: 60%;
+
+}
+
+.dot {
+  background-color: #bbb;
+  border-radius: 50%;
   display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-.navbar .menu li a{
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  margin-left: 25px;
-  transition: color 0.3s ease;
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-.navbar .menu li a:hover {
-  color: #2196f3;
-  text-decoration: underline;
-} */
-
-/* menu btn styling */
-/* .menu-btn {
-  color: #fff;
-  font-size: 23;
-  cursor: pointer;
-  display: none;
-} */
-/* Eind nav 1 */
-
-/* Begin nav 2 */
-/* nav {
-  height: 80px;
-  background: #2c3e50;
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
-nav ul{
-  float: right;
-  margin-right: 25px;
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
-
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 15px;
-}
-
-nav ul li a{
-  position: relative;
-  color: white;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-nav ul li a:before{
-  position: absolute;
-  content: '';
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 100%;
-  background: white;
-  transform: scaleX(0);
-  transform-origin: right;
-}
-
-nav ul li a:before */
-/* eind Nav 2 */
+/* Einde fotoslider */
 
 /* html, body {
     height: 100%;
@@ -501,17 +446,6 @@ h1{
   .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
   }
-
-  /* .Glow-button {
-    display: flex;
-    justify-content: start;
-    padding-left: 80px;
-    padding-top: 25px;
-    align-items: flex-start;
-    margin-bottom: 0px;
-    min-height: 59vh;
-    font-family: consolas;
-  } */
 
     /* .max-width{
       padding: 0 50px;
