@@ -191,6 +191,10 @@ nav ul li a:before */
     padding-left: 10px;
 }
 
+.logo img {
+  width: 20%;
+}
+
 .showcase-text{
     max-width: 800px;
     padding-top: 85px;
@@ -456,6 +460,17 @@ nav ul li a:before */
       font-weight: 700; */
   }
   
+  }
+
+  @media (max-width: 767px){
+    .logo{ 
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+    
+    .logo img {
+      width: 30%;
+    }
   }
 
   @media (max-width: 690px){

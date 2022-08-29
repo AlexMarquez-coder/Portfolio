@@ -304,6 +304,10 @@ h1{
     padding-left: 10px;
 }
 
+.logo img {
+  width: 20%;
+}
+
 /* .showcase-text{
     max-width: 800px;
     padding-top: 85px;
@@ -463,6 +467,15 @@ h1{
     color: #fff;
 } */
 
+.logo{ 
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.logo img {
+  width: 20%;
+}
+
     .nav-menu {
       position: fixed;
       left: -100%;
@@ -501,6 +514,8 @@ h1{
   .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
   }
+
+  
 
   /* .Glow-button {
     display: flex;
@@ -563,6 +578,17 @@ h1{
       font-weight: 700; */
   /* } */
   
+  }
+
+  @media (max-width: 767px){
+    .logo{ 
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+    
+    .logo img {
+      width: 30%;
+    }
   }
 
   @media (max-width: 690px){
