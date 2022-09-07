@@ -87,34 +87,6 @@ a {
  
 }
 
-/* button {
-  padding: 12px;
-  width: 190px;
-  cursor: pointer;
-  background: #799be6;
-  color: white;
-  transition: .5s ease;
-  border-radius: 10px;
-}
-
-.button {
-  padding-left: 500px;
-}
-
-button a {
-  color: #fff;
-  font-size: 30px;
-}
-
-button:hover{
-  background: transparent;
-  border: 2px solid #799be6;
-  box-shadow: 0 0 10px 0 #799be6 inset, 
-              0 0 10px 4px #799be6;
-  border-radius: 10px;
-} */
-
-
 /* CSS */
 .button2 {
   display: flex;
@@ -345,6 +317,7 @@ h1{
 .videos{
     display: flex;
     justify-content: center;
+    justify-content: space-between;
 }
 
 video {
@@ -354,6 +327,13 @@ video {
     /* align-items: center; */
     justify-content: center;
     right: 5vh;
+}
+
+p {
+  position: absolute;
+  top: 75%;
+  padding-left: 25%;
+  color: #fff;
 }
 
   /* responsive media query start */
@@ -443,6 +423,19 @@ video {
       vertical-align: middle;
       padding-top: 30px;
       width: 100%;
+    }
+
+    .videos{
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+  }
+
+    p {
+      position: absolute;
+      top: 75%;
+      padding-left: 25%;
+      color: #fff;
     }
   }
 

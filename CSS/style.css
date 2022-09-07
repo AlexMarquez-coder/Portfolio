@@ -350,6 +350,12 @@ nav ul li a:before */
       background-attachment: fixed;
   }
 
+  .nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2196f3;
+  }
+
   .showcase-text{
     max-width: 800px;
     padding-top: 85px;
@@ -362,7 +368,7 @@ nav ul li a:before */
       left: -100%;
       top: 5rem;
       flex-direction: column;
-      /* background-color: #fff; */
+      background-color: #fff;
       width: 100%;
       border-radius: 10px;
       text-align: center;
