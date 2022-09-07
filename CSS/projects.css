@@ -250,7 +250,7 @@ h1{
       left: -100%;
       top: 5rem;
       flex-direction: column;
-      /* background-color: #fff; */
+      background-color: #fff;
       width: 100%;
       border-radius: 10px;
       text-align: center;
@@ -259,8 +259,15 @@ h1{
           0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
+  .nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2196f3;
+  }
+
   .nav-menu.active {
       left: 0;
+      z-index: +1;
   }
 
   .nav-item {

@@ -290,6 +290,17 @@ h1{
     font-weight: 400;
     color: #2196f3;
   }
+  .container .card
+  {
+     width: 650px;
+     height: 600px;
+     padding: 60px 30px;
+     margin: 20px;
+     /* background: #f2f3f7; */
+     background: lightblue;
+     border-radius: 20px;
+     z-index: -1;
+  }
   
   }
 
