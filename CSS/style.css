@@ -381,6 +381,7 @@ nav ul li a:before */
 
   .nav-menu.active {
       left: 0;
+      z-index: 2;
   }
 
   .nav-item {
