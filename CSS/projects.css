@@ -138,7 +138,17 @@ background-color: #2ecc71;
    /* background: #f2f3f7; */
    background: lightblue;
    border-radius: 20px;
+   transition: 0.5s;
 }
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.cintainer:hover{
+  transform: scale(1.1);
+}
+
 .container .card .content
 {
    display: flex;
@@ -156,6 +166,11 @@ background-color: #2ecc71;
    /* margin-bottom: 20px; */
    overflow: hidden;
 
+}
+
+p {
+  text-decoration: none;
+  color: black;
 }
 
 .container .card .content .imgBx img
@@ -318,6 +333,10 @@ background-color: #2ecc71;
   .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
   }
+
+  .card:hover{
+    transform: none;
+}
   
   }
 
