@@ -520,7 +520,7 @@ background-color: #2ecc71;
     .container .card
 {
    width: 650px;
-   height: 700px;
+   height: 820px;
    padding: 60px 30px;
    margin: 20px;
    /* background: #f2f3f7; */
@@ -617,6 +617,20 @@ background-color: #2ecc71;
       font-weight: 700; */
   /* } */
   }
+
+  /* @media (max-width: 338px){
+    .container .card
+{
+   width: 650px;
+   height: 800px;
+   padding: 60px 30px;
+   margin: 20px;
+   background: lightblue;
+   border-radius: 20px;
+   z-index: -1;
+}
+
+  } */
 
   @media (max-width: 357px){
 
