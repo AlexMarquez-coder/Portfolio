@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/Transformers-Communitypage.css">
+    <link rel="stylesheet" href="../CSS/Model-Images.css">
     <!-- <script src="./app.js"></script> -->
     <!-- <script src="./Button.js"></script> -->
     <script src="../Javascript/hamburgermenu.js"></script>   
@@ -25,28 +26,8 @@
                       <a href="./projects.html">Back</a>
                   </button>
               </div>
-                <!-- <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="./index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./projects.html" class="nav-link">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
-                    </li>
-                </ul> -->
-                <!-- <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav> -->
     </header>
-    <section>
+    <!-- <section>
         <div class="logo2">
             <img src="../Foto/Transformers communitypage/Transformerscommunitylogo.jpg" alt="" >
             </div>
@@ -119,6 +100,119 @@
                     }
                   </script>
 
-        </section>
+        </section> -->
+        <div class="inner">
+            <div class="header2">
+              <h1>About me</h1>
+            </div>
+            <div class="container">
+              <div class="card">
+                <div class="content">
+                  <div class="imgBx">
+                    <div class="slideshow-container">
+        
+                      <div class="mySlides fade">
+                        <img id="myImg1" src="../Foto/Transformers communitypage/Home2.png" >
+                      </div>
+        
+                      <div class="mySlides fade">
+                        <img id="myImg2" src="../Foto/Transformers communitypage/Home2.png" >
+                      </div>
+        
+                      <div class="mySlides fade">
+                        <img id="myImg3" src="../Foto/Transformers communitypage/Home3.png" >>
+                      </div>
+        
+                      <div class="mySlides fade">
+                        <img id="myImg4" src="../Foto/Transformers communitypage/Overons1.png">
+                      </div>
+        
+                      <div class="mySlides fade">
+                        <img id="myImg5" src="../Foto/Transformers communitypage/Overons2.png" >
+                      </div>
+
+                      <div class="mySlides fade">
+                        <img id="myImg6" src="../Foto/Transformers communitypage/Blogpage.png" >
+                      </div>
+        
+                      <div class="mySlides fade">
+                        <img id="myImg7" src="../Foto/Transformers communitypage/Aanmeldenpage.png" >
+                      </div>
+        
+                      <div class="mySlides fade">
+                        <img id="myImg8" src="../Foto/Transformers communitypage/Inloggenpage.png">
+                      </div>
+        
+                      <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                      </div>
+                    </div>
+        
+                  </div>
+                  <div class="contentBx">
+                    <br>
+                    <div class="logo2">
+                      <img src="../Foto/Longnexpage/The_Longnex_LOGO_Kleur_[Hersteld].png" alt="">
+                    </div>
+                    <h4>Alejandro Marquez Lourenço</h4>
+                    <br>
+                    <h5>Hello my name is Alejandro I am 22 years old and I am a web developer I make websites.
+                      I am now at the MBO year 3. When I'm developing I like to work on the front-end that is
+                      the front of the website, what the user sees and everything the user sees is in the front-end.</h5>
+                  </div>
+                  <div class="socialmedia">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/alejandro-marquez-louren%C3%A7o-597767173/" target="_blank">
+                        <img src="../Foto/Linkedein_logo.png" alt="">
+                      </a>
+                    </div>
+                    <div class="github">
+                      <a href="https://github.com/" target="_blank">
+                        <img src="../Foto/github_logo.png" alt="">
+                      </a>
+                    </div>
+        
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div id="myModal" class="modal">
+              <span class="close">×</span>
+              <img class="modal-content" id="img01">
+              <div id="caption"></div>
+            </div>
+        
+        
+            <script>
+              var slideIndex = 0;
+              showSlides();
+        
+              function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "flex";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 6000);
+              }
+            </script>
+          </div>
+          <script src="../Javascript/Modal-Images.js"></script>
 </body>
 </html>

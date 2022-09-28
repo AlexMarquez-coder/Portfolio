@@ -199,6 +199,7 @@ button:hover{
   border-radius: 10px;
 }
 
+
 /* Begin fotoslider */
 * {box-sizing: border-box;}
 .mySlides {
@@ -258,6 +259,24 @@ h1{
   color: #fff;
 }
 
+.header2{
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+}
+
+.header2:after{
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50);
+height: 4px;
+width: 100px;
+background-color: #2ecc71;
+}
+
 .container
 {
    display: flex;
@@ -268,12 +287,15 @@ h1{
 }
 .container .card
 {
-   width: 330px;
-   height: 416px;
+   width: 650px;
+   height: 650px;
    padding: 60px 30px;
    margin: 20px;
-   background: #f2f3f7;
+   /* background: #f2f3f7; */
+   background: lightblue;
    border-radius: 20px;
+   border-style: solid;
+    border-color: red;
 }
 .container .card .content
 {
@@ -284,24 +306,25 @@ h1{
 }
 .container .card .content .imgBx
 {
-   width: 180px;
+   width: 75%;
    /* background-color: black; */
-   height: 180px;
-   border-radius: 50%;
+   height: 250px;
+   /* border-radius: 50%; */
    position: relative;
-   margin-bottom: 20px;
+   /* margin-bottom: 20px; */
    overflow: hidden;
-
 }
+
 .container .card .content .imgBx img
 {
    position: absolute;
    top: 0;
    left: 0;
    width: 100%;
-   height: 100%;
+   /* height: 400px; */
    object-fit: cover;
 }
+
 .container .card .content .contentBx h4
 {
    color: #333;
@@ -315,11 +338,8 @@ h1{
    font-size: 1.2rem;
    text-align: center;
 }
-.container .card .content .sci
-{
-   margin-top: 20px;
-}
-.container .card .content .sci a
+
+.container .card .content a
 {
    text-decoration: none;
    color: #333;
@@ -327,7 +347,7 @@ h1{
    margin: 10px;
    transition: color 0.4s;
 }
-.container .card .content .sci a:hover
+.container .card .content a:hover
 {
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     background-size: 100%;
@@ -336,6 +356,27 @@ h1{
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
+
+.socialmedia{
+  display: flex;
+  padding-top: 20px;
+}
+
+.socialmedia img{
+  height: 50px;
+}
+
+.github {
+  padding-left: 5px;
+}
+
+
+.logo2 img{
+  width: 60%;
+  padding-left: 40%;
+ 
+}
+
 
 .logo{
     padding-top: 10px;
