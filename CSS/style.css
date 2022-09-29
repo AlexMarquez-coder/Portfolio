@@ -162,6 +162,10 @@ nav ul li a:before */
 /* html, body {
     height: 100%;
 } */
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
 
 .background-image {
     height: 100%;
