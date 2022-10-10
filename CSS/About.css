@@ -36,6 +36,11 @@ li {
 
 a {
   text-decoration: none;
+  cursor: default;
+}
+
+button .btn{
+  z-index: +99;
 }
 
 .navbar {
@@ -502,6 +507,7 @@ background-color: #2ecc71;
   transition: color 250ms;
   margin-top: 5px;
   margin-left: 320px;
+  z-index: +5;
 
 }
   
