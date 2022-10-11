@@ -2,7 +2,15 @@
 
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
-    $subject     = $_POST['name'];
-    $name = $_POST['name'];
-    $name = $_POST['name'];
+    $lastname = $_POST['lastname'];
+    $mailForm = $_POST['mail'];
+    $message = $_POST['message'];
+
+    $mailTo = "marquezworld1@hotmail.com";
+    $headers = "From: ".$mailForm;
+    $txt = "You have received an e-mail from". $name.$lastname.".\n\n".$message;
+
+    mail($mailTo, $txt, $headers);
+    header("Location: Contact.php?mailsend");
 }
+

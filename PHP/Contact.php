@@ -40,7 +40,7 @@
 		<form class="contact-form" autocomplete="off">
 			<h2>Contact Me</h2>
 			<div class="inputBox">
-				<input type="text" name="" required="required">
+				<input type="text" name="name" required="required">
 				<span>Name</span>
 				<i></i>
 			</div>
@@ -50,14 +50,14 @@
 				<i></i>
 			</div>
 			<div class="inputBox">
-				<input type="text" name="email" required="required">
+				<input type="text" name="mail" required="required">
 				<span>E-mail</span>
 				<i></i>
 			</div>
             <br>
             <textarea id="subject" name="message" placeholder="Write something.." 
                 style="height:100px"></textarea>
-			<input type="submit" value="Contact">
+			<input type="submit" name="submit" value="Contact">
             
 		</form>
 	</div>
