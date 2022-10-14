@@ -510,7 +510,14 @@ background-color: #2ecc71;
   z-index: +5;
 
 }
-  
+
+.socialmedia{
+  display: flex;
+  padding-top: 0;
+  z-index: +99;
+}
+
+
   }
 
   @media (max-width: 767px){
@@ -548,6 +555,7 @@ background-color: #2ecc71;
 .socialmedia{
   display: flex;
   padding-top: 0;
+  z-index: +99;
 }
 
 /* From uiverse.io by @kleenpulse */

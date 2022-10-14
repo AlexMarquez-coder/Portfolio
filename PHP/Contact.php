@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="../CSS/Contact.css">
     <!-- <script src="./app.js"></script> -->
     <!-- <script src="./Button.js"></script> -->
-    <script src="../Javascript/hamburgermenu.js"></script>   
+    <script src="../Javascript/hamburgermenu.js"></script>
+    <link rel="shortcut icon" href="../Foto/Silhouettes3.png">
     <title>Contact</title>
 </head>
 <body>

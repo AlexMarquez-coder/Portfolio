@@ -362,7 +362,7 @@ h1 {
   background: lightblue;
   border-radius: 20px;
   border-style: solid;
-  /* border-color: red; */
+  border-color: red;
 }
 
 .container .card .content {
@@ -620,7 +620,7 @@ h1 {
     background: lightblue;
     border-radius: 20px;
     border-style: solid;
-    /* border-color: red; */
+    border-color: red;
   }
 
   .container .card .content .imgBx {
