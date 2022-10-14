@@ -22,7 +22,7 @@
     
                 <div class="button2">
                   <button class="button-85" role="button">
-                      <a href="./About.html">Back</a>
+                      <a href="../HTML/About.html">Back</a>
                   </button>
               </div>
     </header>
@@ -37,7 +37,7 @@
 <body>
     <div class="inner">
 	<div class="box">
-		<form class="contact-form" autocomplete="off">
+		<form  method="POST" action="contactform.php" class="contact-form" autocomplete="off">
 			<h2>Contact Me</h2>
 			<div class="inputBox">
 				<input type="text" name="name" required="required">

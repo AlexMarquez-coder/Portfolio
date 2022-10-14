@@ -362,7 +362,7 @@ padding-top: 500px;
   background: lightblue;
   border-radius: 20px;
   border-style: solid;
-  border-color: red;
+  /* border-color: red; */
 }
 
 .container .card .content {
@@ -620,7 +620,7 @@ padding-top: 500px;
     background: lightblue;
     border-radius: 20px;
     border-style: solid;
-    border-color: red;
+    /* border-color: red; */
   }
 
   .container .card .content .imgBx {
