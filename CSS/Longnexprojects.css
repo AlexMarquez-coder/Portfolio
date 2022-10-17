@@ -342,7 +342,7 @@ h1 {
   transform: translateX(-50);
   height: 4px;
   width: 100px;
-  background-color: #2ecc71;
+  /* background-color: #2ecc71; */
 }
 
 .container {
@@ -361,8 +361,7 @@ h1 {
   /* background: #f2f3f7; */
   background: lightblue;
   border-radius: 20px;
-  border-style: solid;
-  border-color: red;
+  /* border-style: solid; */
 }
 
 .container .card .content {
@@ -401,13 +400,15 @@ h1 {
 .container .card .content .contentBx h5 {
   color: #333;
   font-size: 1.2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .container .card .content a {
-  text-decoration: none;
+  /* text-decoration: none; */
+  text-decoration: underline;
+  cursor: pointer;
   color: #333;
-  font-size: 30px;
+  font-size: 20px;
   margin: 10px;
   transition: color 0.4s;
 }
@@ -506,7 +507,7 @@ h1 {
 }
 
 .logo img {
-  width: 12%;
+  width: 11%;
 }
 
 /* responsive media query start */
@@ -619,8 +620,7 @@ h1 {
     /* background: #f2f3f7; */
     background: lightblue;
     border-radius: 20px;
-    border-style: solid;
-    border-color: red;
+    /* border-style: solid; */
   }
 
   .container .card .content .imgBx {

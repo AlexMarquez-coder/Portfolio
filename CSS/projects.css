@@ -94,6 +94,8 @@ background-color: #343a40;
 }
 
 h1{
+  font-family: 'Domine', serif;
+  font-weight: 600;
   text-align: center;
   color: #fff;
 }
@@ -117,7 +119,7 @@ left: 50%;
 transform: translateX(-50);
 height: 4px;
 width: 100px;
-background-color: #2ecc71;
+/* background-color: #2ecc71; */
 }
 
 

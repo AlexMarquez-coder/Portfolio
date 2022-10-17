@@ -346,6 +346,7 @@ body {
   }
 
   @media (max-width: 947px){
+    
     .background-image {
       height: 100%;
       background-image: url('../Foto/space-scene.webp');
