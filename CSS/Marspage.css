@@ -400,8 +400,10 @@ padding-top: 500px;
 
 .container .card .content .contentBx h5 {
   color: #333;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .container .card .content a {
@@ -425,11 +427,11 @@ padding-top: 500px;
 
 .socialmedia {
   display: flex;
-  /* padding-top: 20px; */
+  padding-top: 20px;
 }
 
 .socialmedia img {
-  height: 40px;
+  height: 50px;
 }
 
 .github {
@@ -508,7 +510,7 @@ padding-top: 500px;
 }
 
 .logo img {
-  width: 11%;
+  width: 20%;
 }
 
 /* responsive media query start */
@@ -528,7 +530,8 @@ padding-top: 500px;
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    /* background-color: #fff; */
+    margin-top: 60px;
+    background-color: #fff;
     width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -537,8 +540,15 @@ padding-top: 500px;
       0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2196f3;
+  }
+
   .nav-menu.active {
     left: 0;
+    z-index: +1;
   }
 
   .nav-item {
@@ -562,6 +572,13 @@ padding-top: 500px;
     transform: translateY(-8px) rotate(-45deg);
   }
 
+  .card:hover {
+    transform: none;
+  }
+
+  
+    
+    
   /* .logo2 img{
   width: 70%;
   padding-left: 30%;
@@ -582,7 +599,7 @@ padding-top: 500px;
   }
 
   .logo img {
-    width: 45%;
+    width: 30%;
   }
 
   .logo2 img {

@@ -399,8 +399,10 @@ h1 {
 
 .container .card .content .contentBx h5 {
   color: #333;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .container .card .content a {
@@ -507,7 +509,7 @@ h1 {
 }
 
 .logo img {
-  width: 11%;
+  width: 20%;
 }
 
 /* responsive media query start */
@@ -527,7 +529,8 @@ h1 {
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    /* background-color: #fff; */
+    margin-top: 60px;
+    background-color: #fff;
     width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -536,8 +539,15 @@ h1 {
       0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2196f3;
+  }
+
   .nav-menu.active {
     left: 0;
+    z-index: +1;
   }
 
   .nav-item {
@@ -561,6 +571,11 @@ h1 {
     transform: translateY(-8px) rotate(-45deg);
   }
 
+  .card:hover {
+    transform: none;
+  }
+
+
   /* .logo2 img{
     width: 70%;
     padding-left: 30%;
@@ -581,7 +596,7 @@ h1 {
   }
 
   .logo img {
-    width: 45%;
+    width: 30%;
   }
 
   .logo2 img {
