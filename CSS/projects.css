@@ -326,6 +326,13 @@ p {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+.card:hover{
+  transform: none;
+}
+
+.cintainer:hover{
+  transform: none;
+}
   
   }
 

@@ -843,7 +843,7 @@ z-index: 99;
   .container .card
   {
      width: 650px;
-     height: 1029px;
+     height: 875px;
      padding: 60px 30px;
      margin: 20px;
      /* background: #f2f3f7; */
@@ -855,7 +855,7 @@ z-index: 99;
   .container .card__2
   {
      width: 650px;
-     height: 780px;
+     height: 690px;
      padding: 60px 30px;
      margin: 20px;
      /* background: #f2f3f7; */
@@ -889,7 +889,7 @@ z-index: 99;
   .container .card__title .content .imgBx
   {
      width: 75%;
-     height: 105px;
+     height: 95px;
      position: relative;
      overflow: hidden;
   
