@@ -274,7 +274,7 @@ h1{
 }
 
 .logo img {
-  width: 12%;
+  width: 20%;
 }
 
 /* Begin contact pagina */
@@ -450,6 +450,15 @@ input[type="submit"]:active
 
   @media (max-width: 947px){
     
+    .logo{ 
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+    
+    .logo img {
+      width: 20%;
+    }
+
     .nav-menu {
       position: fixed;
       left: -100%;
@@ -502,7 +511,7 @@ input[type="submit"]:active
     }
     
     .logo img {
-      width: 50%;
+      width: 30%;
     }
     .box 
     {

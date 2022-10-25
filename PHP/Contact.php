@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="../CSS/Contact.css">
     <!-- <script src="./app.js"></script> -->
     <!-- <script src="./Button.js"></script> -->
-    <script src="../Javascript/hamburgermenu.js"></script>
     <link rel="shortcut icon" href="../Foto/Silhouettes3.png">
     <title>Contact</title>
 </head>
 <body>
-        <header class="header">
+        <!-- <header class="header">
             <nav class="navbar">
     
                 <div class="logo">
@@ -26,13 +25,45 @@
                       <a href="../HTML/About.html">Back</a>
                   </button>
               </div>
-    </header>
-    <!-- <section> -->
+    </header> -->
+
+    <header class="header">
+    <nav class="navbar">
+
+      <div class="logo">
+        <a href="../HTML/index.html">
+          <img src="../Foto/Silhouettes3.png" alt="">
+        </a>
+      </div>
+
+
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="../HTML/index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="../HTML/Experience.html" class="nav-link">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a href="../HTML/projects.html" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="../HTML/About.html" class="nav-link">About</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+    
         <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Animated Login Form</title>
+	<title>Animated Contact Form</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -65,7 +96,6 @@
 </div>
 </body>
 </html>
-            
-        <!-- </section> -->
+<script src="../Javascript/hamburgermenu.js"></script>      
 </body>
 </html>
