@@ -31,7 +31,7 @@
     <nav class="navbar">
 
       <div class="logo">
-        <a href="../HTML/index.html">
+        <a href="../index.html">
           <img src="../Foto/Silhouettes3.png" alt="">
         </a>
       </div>
@@ -39,7 +39,7 @@
 
       <ul class="nav-menu">
         <li class="nav-item">
-          <a href="../HTML/index.html" class="nav-link">Home</a>
+          <a href="../index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
           <a href="../HTML/Experience.html" class="nav-link">Experience</a>

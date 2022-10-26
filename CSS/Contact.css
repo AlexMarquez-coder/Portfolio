@@ -77,10 +77,12 @@ a {
   font-weight: 400;
   /* color: #475569; */
   color: #fff;
+  cursor: pointer;
 }
 
 .nav-link:hover{
-  color: #2196f3;
+  /* color: #2196f3; */
+  color: #2ecc71;
 }
 
 /* CSS */
@@ -464,7 +466,7 @@ input[type="submit"]:active
       left: -100%;
       top: 5rem;
       flex-direction: column;
-      /* background-color: #fff; */
+      background-color:  #333;
       width: 100%;
       border-radius: 10px;
       text-align: center;
@@ -505,6 +507,58 @@ input[type="submit"]:active
   }
 
   @media (max-width: 767px){
+    
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      margin-top: 60px;
+      background-color: #333;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+  
+    .nav-link {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: #2196f3;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+      z-index: +3;
+    }
+  
+    .nav-item {
+      margin: 2.5rem 0;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .card:hover {
+      transform: none;
+    }
+
     .logo{ 
       padding-top: 10px;
       padding-left: 10px;

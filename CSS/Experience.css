@@ -77,6 +77,7 @@ a {
   font-weight: 400;
   /* color: #475569; */
   color: #fff;
+  cursor: pointer;
 }
 
 .nav-link:hover{

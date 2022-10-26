@@ -77,15 +77,17 @@ a {
   font-weight: 400;
   /* color: #475569; */
   color: #fff;
+  cursor: pointer;
 }
 
 .nav-link:hover {
-  color: #2196f3;
+  /* color: #2196f3; */
+  color: #2ecc71;
 }
 
 .logo2 img {
-  width: 60%;
-  padding-left: 40%;
+  width: 70%;
+  padding-left: 30%;
 
 }
 
@@ -275,7 +277,8 @@ h1 {
   padding: 60px 30px;
   margin: 20px;
   /* background: #f2f3f7; */
-  background: lightblue;
+  /* background: lightblue; */
+  background: rgb(136, 200, 222);
   border-radius: 20px;
   /* border-style: solid; */
   /* border-color: red; */
@@ -356,8 +359,8 @@ h1 {
 
 
 .logo2 img {
-  width: 60%;
-  padding-left: 40%;
+  width: 70%;
+  padding-left: 30%;
 
 }
 
@@ -444,7 +447,7 @@ h1 {
     top: 5rem;
     flex-direction: column;
     margin-top: 60px;
-    background-color: #fff;
+    background-color:  #333;
     width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -515,7 +518,7 @@ h1 {
 
   .logo2 img {
     width: 80%;
-    padding-left: 10%;
+    padding-left: 20%;
 
   }
 
@@ -543,11 +546,12 @@ h1 {
   /* } */
   .container .card {
     width: 650px;
-    height: 650px;
+    height: 570px;
     padding: 60px 30px;
     margin: 20px;
     /* background: #f2f3f7; */
-    background: lightblue;
+    /* background: lightblue; */
+    background: rgb(136, 200, 222);
     border-radius: 20px;
     /* border-style: solid; */
     /* border-color: red; */

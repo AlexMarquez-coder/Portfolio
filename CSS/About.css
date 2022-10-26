@@ -78,10 +78,12 @@ a {
   font-weight: 400;
   /* color: #475569; */
   color: #fff;
+  cursor: pointer;
 }
 
 .nav-link:hover{
-  color: #2196f3;
+  /* color: #2196f3; */
+  color: #2ecc71;
 }
 
 body {
@@ -136,7 +138,7 @@ width: 100px;
    padding: 60px 30px;
    margin: 20px;
    /* background: #f2f3f7; */
-   background: lightblue;
+   background: rgb(133, 180, 195);
    border-radius: 20px;
 }
 .container .card .content
@@ -235,6 +237,7 @@ width: 100px;
 
 .logo img {
   width: 20%;
+  cursor: pointer;
 }
 
 .socialmedia{
@@ -244,6 +247,7 @@ width: 100px;
 
 .socialmedia img{
   height: 50px;
+  cursor: pointer;
 }
 
 .github {
@@ -286,6 +290,7 @@ width: 100px;
   margin-top: 5px;
   margin-left: 300px;
   /* margin-left: 200px; */
+  cursor: pointer;
 }
 
 .btn::after,
@@ -338,6 +343,7 @@ width: 100px;
             /* bottom-right 2 */
             var(--border-width) calc(100% - var(--border-width)));
   transition: clip-path 500ms;
+  cursor: pointer;
 }
 
 .btn:where(:hover, :focus)::after {
@@ -418,7 +424,7 @@ width: 100px;
       top: 5rem;
       flex-direction: column;
       margin-top: 60px;
-      background-color: #fff;
+      background-color:  #333;
       width: 100%;
       border-radius: 10px;
       text-align: center;
@@ -465,7 +471,8 @@ width: 100px;
      padding: 60px 30px;
      margin: 20px;
      /* background: #f2f3f7; */
-     background: lightblue;
+     /* background: lightblue; */
+     background: rgb(136, 200, 222);
      border-radius: 20px;
   }
 
@@ -531,7 +538,8 @@ width: 100px;
    padding: 60px 30px;
    margin: 20px;
    /* background: #f2f3f7; */
-   background: lightblue;
+   /* background: lightblue; */
+   background: rgb(136, 200, 222);
    border-radius: 20px;
 }
 

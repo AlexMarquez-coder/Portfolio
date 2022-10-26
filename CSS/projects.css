@@ -77,10 +77,12 @@ a {
   font-weight: 400;
   /* color: #475569; */
   color: #fff;
+  cursor: pointer;
 }
 
 .nav-link:hover{
-  color: #2196f3;
+  /* color: #2196f3; */
+  color: #2ecc71;
 }
 
 body {
@@ -136,7 +138,9 @@ width: 100px;
    padding: 60px 30px;
    margin: 20px;
    /* background: #f2f3f7; */
-   background: lightblue;
+   /* background: rgba(160, 222, 244, 0.815); */
+   background: rgba(136, 200, 222, 0.815);
+   /* background: lightblue; */
    border-radius: 20px;
    transition: 0.5s;
 }
@@ -182,6 +186,23 @@ p {
    /* height: 100%; */
    object-fit: cover;
 }
+
+.Longnex img{
+  padding-top: 20px;
+}
+
+.Transformers img{
+  padding-top: 50px;
+}
+
+.Mars img{
+  padding-top: 30px;
+}
+
+.RadicaleKunstspeeltuin img{
+  padding-top: 20px;
+}
+
 .container .card .content .contentBx h4
 {
    color: #333;
@@ -292,7 +313,7 @@ p {
   left: -100%;
   top: 5rem;
   flex-direction: column;
-  background-color: #fff;
+  background-color:  #333;
   width: 100%;
   border-radius: 10px;
   text-align: center;
@@ -301,8 +322,15 @@ p {
     0 10px 27px rgba(0, 0, 0, 0.05);
 }
 
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #2196f3;
+}
+
 .nav-menu.active {
   left: 0;
+  z-index: +1;
 }
 
 .nav-item {
